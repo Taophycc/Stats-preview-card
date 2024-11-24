@@ -138,11 +138,11 @@ h2 >span {
         justify-content: space-between;
         align-items: flex-start;
         gap: 1.5em;
-        padding: 1em 0em 1em 0em;
+        padding: 1em 0em 2em 0em;
     }
     
     .stats > *{
-        margin-left: 5.5em;
+        margin-left: 6.5em;
     }
     
     h2 {
