@@ -175,7 +175,7 @@ h2 >span {
         display: flex;
         flex-direction: column;
         height: 85%;
-        width: 75%;
+        width: 85%;
         overflow: scroll;
         
     }
@@ -217,7 +217,7 @@ h2 >span {
     }
     
     .stats > *{
-        margin-left: 7em;
+        margin-left: 8em;
     }
     
     h2 {
