@@ -100,7 +100,7 @@ h2 >span {
         display: flex;
         flex-direction: column;
         height: 85%;
-        width: 85%;
+        width: 90%;
         overflow: scroll;
         
     }
