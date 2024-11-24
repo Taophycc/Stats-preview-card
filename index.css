@@ -116,11 +116,11 @@ h2 >span {
 
     h1 {
         padding: 1.5em 2em 0.5em 1.5em;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         text-align: center;
     }
     p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         padding: 0em 3em 1.3em 3.4em;
         text-align: center;
     }
@@ -142,18 +142,18 @@ h2 >span {
     }
     
     .stats > *{
-        margin-left: 8em;
+        margin-left: 5.5em;
     }
     
     h2 {
         color: hsl(0, 0%, 100%);
         padding: 0em;
         margin-left: 0em;
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     h2 > span {
         color: hsla(0, 0%, 100%, 0.6);
-        font-size: 0.5rem;
+        font-size: 0.8rem;
         font-weight: 0;
         display: block;
         
