@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: 'lexend deca',sans-serif;
+    font-size: 15px;
+
+}
+
+.parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.card-container {
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    height: 55%;
+    width: 75%;
+    border-radius: 8px;
+    overflow:scroll;
+}
+
+.content-container {
+    width: 50%;
+    background-color: inherit;
+    border-radius: 8px;
+    
+    
+    /* padding: 4em 8em 0em 5.5em; */
+}
+
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    font-family: 'inter', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 2.5em 2.9em 1em 2em;
+
+}
+
+span {
+    color:hsl(277, 64%, 61%) ;
+}
+
+p {
+    text-align: left;
+    padding: 2em 0 0 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 0em 7em 4em 4.5em;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* margin-top: 7em; */
+    padding: 0em 8em 0em 3.3em;
+}
+
+.stats > *{
+    margin-left: 20px;
+}
+
+h2 {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 0em;
+    margin-left: 0em;
+}
+h2 >span {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 0.8rem;
+    font-weight: 0;
+    display: block;
+    
+}
+
+.image-container {
+    width: 50%;
+    contain: content;
+}
+
+@media screen and (max-width:375px) {
+
+    .parent-container {
+        display: flex;
+        
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        height: 85%;
+        width: 75%;
+        overflow: scroll;
+        
+    }
+
+    .content-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        order: 2;
+        padding: 0;
+    }
+
+    h1 {
+        padding: 1.5em 2em 0.5em 1.5em;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    p {
+        font-size: 0.7rem;
+        padding: 0em 3em 1.3em 3.4em;
+        text-align: center;
+    }
+    .image-container {
+        width: 100%;
+        height: 30%;
+        order: 1;
+        content: url(image-header-mobile.jpg);
+    }
+
+
+    .stats {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1.5em;
+        padding: 1em 0em 1em 0em;
+    }
+    
+    .stats > *{
+        margin-left: 7em;
+    }
+    
+    h2 {
+        color: hsl(0, 0%, 100%);
+        padding: 0em;
+        margin-left: 0em;
+        font-size: 1rem;
+    }
+    h2 > span {
+        color: hsla(0, 0%, 100%, 0.6);
+        font-size: 0.5rem;
+        font-weight: 0;
+        display: block;
+        
+    }
+      
+
+
+
+}
+
+@media (min-width:375px) and (max-width:450px) {
+
+    .parent-container {
+        display: flex;
+        
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        height: 85%;
+        width: 75%;
+        overflow: scroll;
+        
+    }
+
+    .content-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        order: 2;
+        padding: 0;
+    }
+
+    h1 {
+        padding: 1.5em 2em 0.5em 1.5em;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    p {
+        font-size: 0.7rem;
+        padding: 0em 3em 1.3em 3.4em;
+        text-align: center;
+    }
+    .image-container {
+        width: 100%;
+        height: 30%;
+        order: 1;
+        content: url(image-header-mobile.jpg);
+    }
+
+
+    .stats {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 1.5em;
+        padding: 1em 0em 1em 0em;
+    }
+    
+    .stats > *{
+        margin-left: 7em;
+    }
+    
+    h2 {
+        color: hsl(0, 0%, 100%);
+        padding: 0em;
+        margin-left: 0em;
+        font-size: 1rem;
+    }
+    h2 > span {
+        color: hsla(0, 0%, 100%, 0.6);
+        font-size: 0.5rem;
+        font-weight: 0;
+        display: block;
+        
+    }
+      
+
+
+
+}
